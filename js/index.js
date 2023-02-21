@@ -4,7 +4,7 @@ function busqueda(){
     let inputValue = document.getElementById("inputSearch").value;
     let palabra = inputValue.toLowerCase();
     if (palabra == 'language' || palabra == 'idioma' || palabra == 'idiomas' || palabra == 'languages' || palabra == 'estudios'|| palabra == 'estudio'|| palabra == 'studies'|| palabra == 'degree') {
-        location.href = "\html\studies.html";
+        window.location.href = "https://santiagowainer.github.io/html/studies.html";
     }
     if (palabra == 'curriculum' || palabra == 'cv') {
         location.href = "\html\myself.html";
