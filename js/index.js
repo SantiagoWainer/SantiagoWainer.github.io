@@ -3,7 +3,7 @@
 function busqueda(){
     let inputValue = document.getElementById("inputSearch").value;
     let palabra = inputValue.toLowerCase();
-    if (palabra == 'language' || palabra == 'idioma' || palabra == 'idiomas' || palabra == 'languages' || palabra == 'estudios'|| palabra == 'estudio'|| palabra == 'studies'|| palabra == 'degree') {
+    while (palabra == 'language' || palabra == 'idioma' || palabra == 'idiomas' || palabra == 'languages' || palabra == 'estudios'|| palabra == 'estudio'|| palabra == 'studies'|| palabra == 'degree') {
         window.location.href = "https://santiagowainer.github.io/html/studies.html";
     }
     if (palabra == 'curriculum' || palabra == 'cv') {
